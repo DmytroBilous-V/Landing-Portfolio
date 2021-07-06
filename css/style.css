@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    max-width: 965px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.unShow {
+    display: none;
+}
+
+.show {
+    display: block;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-top: 10px solid  #828282;
+    border-right: 10px solid  #828282;
+    opacity: 60%;
+    margin-right: 60px;
+    transform: rotate(-45deg);
+}
+
+/*** Styles for MENU ***/
+
+.header {
+    padding-top: 40px;
+    background-color: #fff;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.menu__list-item {
+    min-width: 90px;
+}
+.menu__list-item_last {
+    min-width: 75px;
+    text-align: right;
+}
+.menu__list-link {
+    width: 100%;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    color: #828282;
+}
+.menu__list-link:hover {
+    color: #070707;
+}
+
+/*** Styles for section MAIN ***/
+
+.main {
+    padding: 35px 0px 100px;
+}
+.main__title-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 55px;
+}
+.main__title {
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 55px;
+}
+.main__title-description {
+    width: 259px;
+    line-height: 21px;
+    text-align: right;
+}
+.main__image {
+    width: 100%;
+}
+
+/*** Styles for section ABOUT ***/
+
+.about {
+    padding: 50px 0px;
+    background-color: #F4F4F4;
+}
+.about__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+}
+.about__description-text {
+    width: 451px;
+}
+.text {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 29px;
+}
+
+/*** Styles for section SKILLS ***/
+.skills {
+    padding: 50px 0px;
+}
+.skills__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.first-item,
+.second-item,
+.third-item,
+.fourth-item {
+    display: block;
+    width: 170px;
+    height: 205px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-item {
+    background-image: url('../images/skills/Ps.png');
+}
+.second-item {
+    background-image: url('../images/skills/Ai.png');
+}
+.third-item {
+    background-image: url('../images/skills/Ae.png');
+}
+.fourth-item {
+    background-image: url('../images/skills/figma.png');
+}
+
+/*** Styles for section PORTFOLIO ***/
+
+.portfolio {
+    background-color: #F4F4F4;
+    padding: 50px 0px 14px;
+}
+.portfolio__list {
+    list-style: none;
+}
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 36px;
+}
+.axample__image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.example__title {
+    font-weight: 500;
+    line-height: 21px;
+}
+
+/*** Styles for section PORTFOLIO ***/
+
+.footer {
+    padding: 50px 0px;
+}
+.footer__address {
+    margin: 0 auto;
+    padding-top: 35px;
+    width: 340px;
+}
+.contacts-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
